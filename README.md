@@ -15,7 +15,7 @@ It's budget time again, and the School Board and Superintendent have relied on M
 
 Using existing code to assist in the effort, two separate files were imported. After imputing missing values and removing incorrect data, the datasets were merged and used to product the School District Summary and the summary of individual school metrics, as well as the additional metrics.
 
-[ALT !] PICTURE HERE
+![ALT Text](https://user-images.githubusercontent.com/30667001/149038072-daf46753-7feb-4d7d-b367-1c6421a45240.png)
 
 # Evidence of Academic Dishonesty (Challenge)
 With concerns raised about results from Thomas High School 9th grade, the School Board has requested a repeat of the analysis, following replacement of the questionable scores. Deleting records or introducing zeros / missing values can upset mathematical operations. By replacing all reading and math scores with NaN (Not A Number), calculations can proceed without issue.
