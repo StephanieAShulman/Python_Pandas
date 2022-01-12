@@ -25,8 +25,7 @@ Thomas High School (THS), a charter school of 1,635 students, has 461 ninth grad
 After replacing all of the 9th grade scores, the scores of the remaining 38,709 students were calculated. A new dataframe was created and the number of remaining THS students was calculated. The count of these students (1,174 10th - 12th graders) became the basis of all remaining calculations. As a result, no other measures changed when the rest of the code was rerun.
 - The district summary - no change
 - The school summary
-  - Even though this was run on the reduced number of students (n = 38,709), changes were imperceptible.
-  - The overall passing percentage, for example, was modified from <INSERT> to 64.9%. Interestingly, not removing the 9th grade students (not required by provided code) would have resulted in an overall passing rate of 64.1%, likely due to the nature of NaNs as value-based entities.
+  - As comparison, overall passing for THS was 90.9% prior to removal of 9th grade scores. In an initial data run with the inclusion of NaNs, that score reduced to 65.1% (ie, fewer scores divided by the same number of students). When the 9th grade scores were removed and the data run on the remaining upperclassmen per instructions, the passage rate was basically the same (90.6%), due to the similarily of scores across all grades.
 - The top 5 and bottom 5 performing schools, based on the overall passing rate
   - No change
   - As all values were in similar ranges with and without the inclusion of 9th grade data, THS maintained its ranking at a Top 5 school by scores.
